@@ -9,18 +9,18 @@
 </head>
 
 <body>
-	<form class="" action="index.html" method="post">
+	<form method="get">
 		First Name : <input type="text" name="fName" value=""><br>
 		 Last Name : <input type="text" name="lName" value=""><br>
   <!--text input field-->
 			Gender :<br>
-		<input type="radio" name="Gender" value="">Male<br>
-		<input type="radio" name="Gender" value="">Female<br>
-		<input type="radio" name="Gender" value="">Other<br>
+		<input type="radio" name="Gender" value="Male">Male<br>
+		<input type="radio" name="Gender" value="Female">Female<br>
+		<input type="radio" name="Gender" value="Other">Other<br>
   <!--Radio box need to group them under name so it can select only one option at a time-->
-		Birth : <input type="date" name="" value=""><br>
+		Birth : <input type="date" name="DOB"><br>
 	<!--Date input feild-->
-		Country : <select class="Country" name="">
+		Country : <select name="Country">
 			<option value="India">India</option>
 			<option value="Australia">Australia</option>
 			<option value="UK">United Kingdom</option>
@@ -31,12 +31,12 @@
 		Password : <input type="password" name="password"><br>
 		<!--Password field input hiddin-->
 		Services :<br>
-		<input type="checkbox" name="" value="">Email<br>
-		<input type="checkbox" name="" value="">Phone<br>
+		<input type="checkbox" name="Email">Email<br>
+		<input type="checkbox" name="Phone">Phone<br>
 		<!--checkbox filed-->
-		<input type="submit" name="submit" value="Submit"><br>
+		<input type="submit" name="submit"><br>
 		<!--Submit form-->
-		<input type="reset" name="reset" value="reset"><br>
+		<input type="reset" name="reset"><br>
 		<!--reset form-->
 
 	</form>
